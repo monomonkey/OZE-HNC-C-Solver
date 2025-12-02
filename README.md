@@ -1,4 +1,4 @@
-# API_HNC - Solver de Ecuación de Ornstein-Zernike
+# OZE_c_solver - Solver de Ecuación de Ornstein-Zernike
 
 Solver numérico para la ecuación de Ornstein-Zernike (OZ) aplicada a sistemas coloidales. Calcula el factor de estructura **S(k)** y la función de distribución radial **g(r)** usando las aproximaciones HNC (Hypernetted Chain) y RY (Rogers-Young).
 
@@ -94,7 +94,7 @@ El programa genera dos archivos principales:
 ## 📁 Estructura del Proyecto
 
 ```
-API_HNC/
+OZE_c_solver/
 ├── src/                # Código fuente
 │   ├── main.c
 │   ├── facdes2Y.c

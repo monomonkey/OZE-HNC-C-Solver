@@ -134,6 +134,7 @@ make install  # Instalar en /usr/local/bin
 ```
 
 ### Hard Sphere
+(Para esferas diras no es necesario el parámetro --temp, trabaja como una dump variable. Sin embargo, se debe proporcionar para cumplir con la sintaxis del programa)
 ```bash
 ./build/facdes_solver --closure HNC --potential 7 \
                       --volfactor 0.4 --temp 1.0 \
@@ -176,8 +177,8 @@ Usando relaciones de cierre:
 
 ## 👤 Autor
 
-Desarrollado para el análisis de sistemas coloidales y materia suave.
+Desarrollado por Ricardo Peredo Ortiz y el grupo de Materia fuera del equilibrio del Instituto de Física de la Universidad Autónoma de San Luis Potosí (UASLP).
 
 ## 📝 Licencia
 
-(Agregar tu licencia aquí)
+MIT License

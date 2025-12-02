@@ -134,7 +134,7 @@ make install  # Instalar en /usr/local/bin
 ```
 
 ### Hard Sphere
-(Para esferas diras no es necesario el parámetro --temp, trabaja como una dump variable. Sin embargo, se debe proporcionar para cumplir con la sintaxis del programa)
+(Para esferas duras no es necesario el parámetro --temp, trabaja como una dump variable. Sin embargo, se debe proporcionar para cumplir con la sintaxis del programa)
 ```bash
 ./build/facdes_solver --closure HNC --potential 7 \
                       --volfactor 0.4 --temp 1.0 \

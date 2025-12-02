@@ -1,0 +1,34 @@
+# Ejecutables
+facdes_solver
+build/facdes_solver
+*.exe
+
+# Archivos objeto
+*.o
+build/*.o
+
+# Archivos de salida
+*.dat
+output/*.dat
+
+# Directorios de compilación
+build/
+*.dSYM/
+
+# Editor y IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporales
+*.tmp
+*.bak
+*.log
+
+# Archivos de depuración
+vgcore.*
+core
+core.[0-9]*
